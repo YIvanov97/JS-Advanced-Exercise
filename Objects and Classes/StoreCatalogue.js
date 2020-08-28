@@ -23,7 +23,7 @@ function solve(input) {
         const sortedProducts = Object.keys(catalog[key]).sort((a, b) => a.localeCompare(b));
         for (let product of sortedProducts) {
             // отпечатваме продуктите
-            console.log(`  ${product} : ${catalog[key][product]}`);
+            console.log(`  ${product}: ${catalog[key][product]}`);
         }
     }
 }
